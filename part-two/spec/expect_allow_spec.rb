@@ -1,5 +1,3 @@
-
-
 # As a double
 RSpec.describe "example" do
   it "example 1" do

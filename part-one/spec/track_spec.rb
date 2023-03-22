@@ -8,7 +8,7 @@ RSpec.describe Track do
   it "returns true if keyword matches title or artist" do
     track = Track.new("title", "match")
     track_2 = Track.new("match", "artist")
-    track_3 = Track.new("match", "match")
+    track_3 = Track.new("match", "match")double :task, complete?: true
     expect(track.matches?("match")).to eq true
     expect(track_2.matches?("match")).to eq true
     expect(track_3.matches?("match")).to eq true
